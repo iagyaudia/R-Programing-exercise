@@ -1,3 +1,5 @@
+#17523195-17523196
+
 #nomer 1
 library(Ryacas)
 x<-Sym("x")
@@ -106,19 +108,19 @@ integrate(x*(2-3*x)^2,x)
 library(Ryacas)
 
 x <- Sym("x")
-Limit(1-cos(x)/x,x,0)
+Limit((1-cos(x))/x,x,0)
 
 #no 2
 library(Ryacas)
 
 x <- Sym("x")
-Limit(2*(-3+x)^2-18/x,x,0)
+Limit((2*(-3+x)^2-18)/x,x,0)
 
 #no 3
 library(Ryacas)
 
 x <- Sym("x")
-Limit(x-sqrt(3*x+4)/4-x,x,4)
+Limit((x-sqrt(3*x+4))/4-x,x,4)
 
 
 
